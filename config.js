@@ -1,14 +1,9 @@
-// Configuration settings for Lavalink REST API
 module.exports = {
-    LAVALINK_V3: {
-      HOST: "https://v3.lavalink.rocks/v3",
-      PASSWORD: "horizxon.tech",
+    LAVALINK: {
+        HOST: "pnode1.danbot.host", // or IP, e.g., "http://127.0.0.1"
+        PORT: 1186, // Replace with your actual Lavalink port
+        PASSWORD: "Harmonix",
+        SECURE: false // set to true if you're using HTTPS (SSL)
     },
-    LAVALINK_V4: {
-      HOST: "https://v4.lavalink.rocks/v4",
-      PASSWORD: "horizxon.tech",
-    },
-    PORT: 3000,
-    API_TIMEOUT: 50000,
-  };
-  
+    API_TIMEOUT: 50000
+};
